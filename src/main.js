@@ -11,11 +11,11 @@ function setNames() {
 
     $('.event-details-single-image').prepend('<td></td>')
 
+    $('.event-details-single-image').prepend("<p>Medlemmer som skal </p>");
+
     $('#attendee_list > tr').each((x, y) =>{
       $('.event-details-single-image > td').prepend(y)
     });
-
-    $('.event-details-single-image').prepend("<p>Medlemmer som skal </p>");
 
 
     $('.event-details-single-image > p').css({
