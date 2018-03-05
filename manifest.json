@@ -1,0 +1,20 @@
+{
+  "name": "Ow attendee list",
+  "version": "1.0",
+  "description": "Saves earnings history on binance",
+  "manifest_version": 2,
+
+  "permissions": [
+      "tabs",
+      "*://*/*",
+      "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery-2.1.3.min.js", "main.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
