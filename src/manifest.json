@@ -1,7 +1,7 @@
 {
   "name": "Ow attendee list",
   "version": "1.0",
-  "description": "Saves earnings history on binance",
+  "description": "Shows attendees on OW4",
   "manifest_version": 2,
 
   "permissions": [
