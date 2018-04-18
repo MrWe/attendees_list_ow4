@@ -9,10 +9,6 @@ function showMembers() {
     ? '.event-details-single-image'
     : '.event-status-companies-container';
 
-  //$(container).css("background-color", "#d6eaff");
-  //$('event-status-companies').css("background-color", "#fff");
-
-  console.log(container)
   $(container).prepend("<div class='col-md-12'> </div>");
   $(container + ' > .col-md-12').prepend("<div class='event-access'>  </div>");
   $(container + ' > .col-md-12 > .event-access').append("<p class='access-title'> Påmeldte </p>");
@@ -25,6 +21,7 @@ function showMembers() {
   $(container + ' > .col-md-12').css('background-color', '#d6eaff');
 
   $('.rules > .wiker').css({'word-wrap': 'normal', 'display': 'inline-block', 'white-space': '', 'margin': '1px 2px', 'line-height': '13px'});
+
 }
 
 function setNames() {
