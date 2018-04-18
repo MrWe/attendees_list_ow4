@@ -15,7 +15,7 @@ function showMembers() {
   console.log(container)
   $(container).prepend("<div class='col-md-12'> </div>");
   $(container + ' > .col-md-12').prepend("<div class='event-access'>  </div>");
-  $(container + ' > .col-md-12 > .event-access').append("<p class='access-title'> Medlemmer som skal </p>");
+  $(container + ' > .col-md-12 > .event-access').append("<p class='access-title'> Påmeldte </p>");
   $(container + ' > .col-md-12 > .event-access').append("<div class='rules'> </div>");
 
   $('#attendee_list > tr').each((x, y) => {
