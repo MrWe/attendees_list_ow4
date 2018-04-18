@@ -9,7 +9,7 @@ function showMembers() {
     ? '.event-details-single-image'
     : '.event-status-companies-container';
 
-  $(container).prepend("<div class='col-md-12'> </div>");
+  $(container).prepend("<div class='col-md-12' style='margin-bottom: 20px;'> </div>");
   $(container + ' > .col-md-12').prepend("<div class='event-access'>  </div>");
   $(container + ' > .col-md-12 > .event-access').append("<p class='access-title'> Påmeldte </p>");
   $(container + ' > .col-md-12 > .event-access').append("<div class='rules'> </div>");
